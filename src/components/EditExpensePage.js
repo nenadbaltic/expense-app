@@ -41,38 +41,3 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(EditExpensePage);
-
-
-
-
-
-
-
-
-
-
-// const EditExpensePage = (props) => {
-//     // console.log(props.history);
-//     return (
-//         <div>
-//             <ExpenseFrom
-//                 expense={props.expense}
-//                 onSubmit={(expense) => {
-//                     // console.log(props.expense.id)
-//                     props.dispatch(editExpense(props.expense.id, expense));
-//                     props.history.push('/');
-//                 }} 
-//                 />
-//                 <button onClick={ (e) => {
-//                     props.dispatch(removeExpense({ id: props.expense.id }));
-//                     props.history.push('/');
-//                 }}>Remove</button>
-//         </div>
-//     );
-// }
-
-// const mapStateToProps = (state, props) => {
-//     return {
-//         expense: state.expenses.find((expense) => expense.id === props.match.params.id)
-//     }
-// // }; => state from store and props from component

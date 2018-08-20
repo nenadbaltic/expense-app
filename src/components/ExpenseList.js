@@ -28,19 +28,3 @@ const mapStateToProps = (state) => {
 }
 
 export default connect(mapStateToProps)(ExpenseList);
-
-// // Note:
-// const mapStateToProps = (ObjFromStore) => {
-//     return {
-//         expenses: ObjFromStore.expenses,
-//         filters: ObjFromStore.filters
-//     };
-// return vraca objekat kao props
-// }
-// const ConnectedExpenseList = connect(mapStateToProps)(ExpenseList);
-
-// // my solution for map;
-// props.expenses.map((expense) => {
-//     return <ExpenseListItem key={expense.id} description={expense.description} amount={expense.amount} createdAt={expense.createdAt}
-//         />
-// })
