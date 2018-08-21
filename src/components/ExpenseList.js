@@ -15,7 +15,6 @@ export const ExpenseList = (props) => {
                props.expenses.map((expense) => {
                     return <ExpenseListItem key={expense.id} {...expense} />
                })
-               
             }
         </div>
     );
@@ -23,7 +22,7 @@ export const ExpenseList = (props) => {
 
 const mapStateToProps = (state) => {
     return {
-        expenses: getVisibleExpenses(state.expenses, state.filters)
+        expenses: getVisibleExpenses(state.expenses, state.filters),
     };
 }
 

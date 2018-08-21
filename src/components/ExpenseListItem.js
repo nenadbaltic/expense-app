@@ -16,4 +16,5 @@ const ExpenseListItem = (props) => {
     );
 }
 
+
 export default ExpenseListItem;
