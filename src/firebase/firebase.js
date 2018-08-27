@@ -52,11 +52,11 @@ export { firebase, database as default };
 //     body: 'React, Angular, Python'
 // });
 
-// database.ref('notes/-LKgKmADEeFekEcj3MJu').update({
+// database.ref('notes/-LKx2Cic-j9N9aeQTrJY').update({
 //     body: 'Buy food'
 // });
 
-// database.ref('notes/-LKgKmADEeFekEcj3MJu').remove();
+// database.ref('notes/-LKx2Cic-j9N9aeQTrJY').remove();
 
 
 // Challenge:
