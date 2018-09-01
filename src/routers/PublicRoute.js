@@ -26,24 +26,3 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps)(PublicRoute);
-
-// class PublicRoute extends React.Component {
-//     manual = () => {
-//         let props = this.props;
-//         let isAuthenticated = this.props.isAuthenticated;
-//         let Component = this.props.component;
-
-//         return (
-//             isAuthenticated ?
-//             <Redirect to="/dashboard"/>
-//             :
-//             <Component {...props}/>
-//         );
-//     }
-
-//     render() {
-//         return (
-//             <Route component={this.manual} />
-//         );
-//     }
-// }
